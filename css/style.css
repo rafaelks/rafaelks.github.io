@@ -15,7 +15,7 @@ h2 {
 }
 
 a {
-  color: #c02144;
+  color: #7e4858;
   text-decoration: none;
   border-bottom: 1px dotted #999;
 }
@@ -55,8 +55,8 @@ a:hover {
 #avatar {
   object-fit: cover;
   border-radius:50%;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
 }
 
 .image-info {
@@ -68,8 +68,8 @@ a:hover {
 
 @media screen and (max-width: 500px) {
   body {
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .content-image {
