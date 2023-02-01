@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   font-size: 18px;
   line-height: 26px;
   color: #2e2c31;
@@ -15,7 +15,7 @@ h2 {
 }
 
 a {
-  color: #5b3bdb;
+  color: #3a579a;
   text-decoration: none;
   border-bottom: 1px dotted #999;
 }
@@ -27,7 +27,7 @@ a:hover {
 .content {
   margin: 50px auto;
   padding: 20px;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .content-comment {
@@ -79,16 +79,20 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
   body {
-    color: #ddd;
+    color: #888;
     background-color: #222;
   }
 
-  h1, h2 {
+  h1, h2, h3, h4 {
     line-height: 35px;
-    color: #eee;
+    color: #fff;
   }
 
   a {
-    color: #ffff00;
+    color: #fff;
+  }
+
+  a:hover {
+    color: #aaa;
   }
 }
