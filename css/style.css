@@ -1,13 +1,14 @@
 body {
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
-  font-size: 18px;
-  line-height: 26px;
-  color: #2e2c31;
+  font-size: 20px;
+  line-height: 32px;
+  color: #002626;
+  background-color: #F2E9E4;
 }
 
 h1, h2 {
   line-height: 35px;
-  color: #2e2c31;
+  color: #002626;
 }
 
 h2 {
@@ -15,13 +16,13 @@ h2 {
 }
 
 a {
-  color: #3a579a;
+  color: #E55812;
   text-decoration: none;
   border-bottom: 1px dotted #999;
 }
 
 a:hover {
-  color: #4026a6;
+  color: #95C623;
 }
 
 .content {
@@ -65,6 +66,9 @@ a:hover {
   color: #888;
 }
 
+.small {
+  font-size: 70%;
+}
 
 @media screen and (max-width: 500px) {
   body {
