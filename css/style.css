@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   line-height: 32px;
   color: #002626;
-  background-color: #F2E9E4;
+  background-color: #f4f1ef;
 }
 
 h1, h2 {
@@ -16,13 +16,13 @@ h2 {
 }
 
 a {
-  color: #E55812;
+  color: #1315b6cc;
   text-decoration: none;
   border-bottom: 1px dotted #999;
 }
 
 a:hover {
-  color: #95C623;
+  color: #0837e2a3;
 }
 
 .content {
@@ -56,8 +56,8 @@ a:hover {
 #avatar {
   object-fit: cover;
   border-radius:50%;
-  width: 160px;
-  height: 160px;
+  width: 240px;
+  height: 240px;
 }
 
 .image-info {
@@ -83,8 +83,8 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
   body {
-    color: #888;
-    background-color: #222;
+    color: #cacaca;
+    background-color: #111111;
   }
 
   h1, h2, h3, h4 {
