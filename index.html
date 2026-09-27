@@ -3,7 +3,29 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Rafael K. Streit (@rafaelks)</title>
+    <title>Rafael K. Streit — Tripsy Co-founder &amp; iOS Developer</title>
+    <meta name="description" content="Rafael K. Streit, co-founder and developer of Tripsy. Building apps for iPhone and Mac. Explore my work, Tripsy’s story, and the tools I use.">
+    <link rel="canonical" href="https://rafaelks.com/">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "@id": "https://rafaelks.com/#profile",
+        "url": "https://rafaelks.com/",
+        "name": "Rafael K. Streit — Tripsy Co-founder & iOS Developer",
+        "mainEntity": {
+          "@type": "Person",
+          "@id": "https://rafaelks.com/#person",
+          "name": "Rafael K. Streit",
+          "alternateName": ["Rafael Kellermann Streit", "rafaelks"],
+          "url": "https://rafaelks.com/",
+          "image": "https://rafaelks.com/avatar.webp",
+          "jobTitle": "Co-founder & Developer",
+          "worksFor": {"@type": "Organization", "name": "Tripsy", "url": "https://tripsy.app"},
+          "sameAs": ["https://x.com/rafaelks"]
+        }
+      }
+    </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="p:domain_verify" content="5a53a96d324d8ca4b035c3c64129a697"/>
@@ -13,7 +35,10 @@
   </head>
   <body>
     <div class="content">
-      <img id="avatar" src="avatar.jpg" />
+      <picture>
+        <source srcset="avatar.webp" type="image/webp">
+        <img id="avatar" src="avatar.jpg" alt="Rafael K. Streit" width="240" height="240" />
+      </picture>
 
       <h1>Rafael K. Streit</h1>
 
@@ -35,7 +60,10 @@
       </p>
 
         <div class="content-image">
-          <img src="img/tripsy/composition-092026.jpg" /><br />
+          <picture>
+            <source type="image/webp" srcset="img/tripsy/composition-092026-900.webp 900w, img/tripsy/composition-092026.webp 1800w" sizes="(max-width: 956px) calc(100vw - 56px), 900px">
+            <img src="img/tripsy/composition-092026.jpg" alt="Tripsy travel planner showing itineraries and trip details" width="2059" height="1373" loading="lazy" />
+          </picture><br />
           <span class="image-info">You can <a href="https://tripsy.app/download">download Tripsy for iOS and Mac</a>.</span>
         </div>
 
